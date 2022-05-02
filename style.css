@@ -4,12 +4,38 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
     padding: 0;
     margin: 0;
+    background-color: #BA8C63;
 }
 
 .container{
     position: absolute;
-    margin: auto;
+    width: 80vw;
+    height: 20vw;
     top: 50%;
-    transform: translate(0, -50%);
-    background-color: #966F33;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.container div{
+    position: relative;
+    background-color: #fff;
+    border-radius: 10%;
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-size: 10vw;
+    color: #000
+    ;
+}
+
+.container span{
+    font-size: 10vw;
+    color: #fff;
+    user-select: none;
 }
